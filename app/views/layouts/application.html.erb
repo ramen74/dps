@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dps</title>
+  <title>Derek Szydlowski</title>
+ 
+  <%#= stylesheet_link_tag    "reset"%>
+  <%#= stylesheet_link_tag    "960"%>
+  <%#= stylesheet_link_tag    "main" %>
   <%= stylesheet_link_tag    "application", :media => "all" %>
+
+  
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
+  <meta name="keywords" content="Derek Szydlowski, szydlowski, rails,  ruby, engineer, tokyo, hero" />
+  <meta name="description" content="Derek Szydlowski is a ROR system's engineer and developer living and breathing in Tokyo" />
+
 </head>
 <body>
 
-<%= yield %>
+<div id="main_container" class="container_12">
+  <div id="header">
+    <h1>Derek Szydlowski</h1>
+
+	<p>
+	This is my web site. It has some info about me, and from time to time will be a place for me to do some experiments...
+	<br/>
+	If you've arrived at this page.. it is not yet complete.. as a matter of fact is just really a place holder at this point...	
+	</p>
+  </div>
+	
+  <%= yield %>
+</div>
 
 </body>
 </html>
