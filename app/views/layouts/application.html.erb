@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Derek Szydlowski</title>
+
  
   <%#= stylesheet_link_tag    "reset"%>
   <%#= stylesheet_link_tag    "960"%>
@@ -12,8 +13,28 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 
-  <meta name="keywords" content="Derek Szydlowski, szydlowski, rails,  ruby, engineer, tokyo, hero" />
+  <meta name="keywords" content="Derek Szydlowski, szydlowski, rails,  ruby, engineer, tokyo, web development, hosting, deployment, biking, snowboarding." />
   <meta name="description" content="Derek Szydlowski is a ROR system's engineer and developer living and breathing in Tokyo" />
+
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-35320148-1']);
+    _gaq.push(['_setDomainName', 'dszydlowski.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+
+
 
 </head>
 <body>
@@ -21,12 +42,8 @@
 <div id="main_container" class="container_12">
   <div id="header">
     <h1>Derek Szydlowski</h1>
-
-	<p>
-	This is my web site. It has some info about me, and from time to time will be a place for me to do some experiments...
-	<br/>
-	If you've arrived at this page.. it is not yet complete.. as a matter of fact is just really a place holder at this point...	
-	</p>
+    <h2>シドラウスキ−　デレック</h2>
+	
   </div>
 	
   <%= yield %>

@@ -3,12 +3,103 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 //color pallette 
-/*
-#b7cedf
-#3396b2
-#036993
-#174255
-#3e2e3a
-*/
 
-body { background-color: #3e2e3a; color: #b7cedf}
+//$color_a: #7FBAFC;
+//$color_b: #FEE789;
+//$color_c: #C8A94C;
+//$color_d: #55262C;
+//$color_e: #362430;
+
+//cool blue
+$color_a: #091D42;
+$color_b: #396A92;
+$color_c: #9AB4CB;
+$color_d: #ECEDF2;
+$color_e: #FDFDFD;
+
+//$color_b: #DED4B9;
+//$color_a: #929487;
+//$color_c: #CE534D;
+//$color_e: #f4f5ed;
+//$color_d: #89cede;
+
+
+//$color_a: #DED4B9;
+//$color_b: #46433a;
+//$color_c: white;
+//$color_d: #CE534D;
+//$color_e: #CE534D;
+//$color_f: #64B6B1;
+
+
+//$color_a: #73726d;
+//$color_b: #e7f3ef;
+//$color_c: white;
+//$color_d: #CE534D;
+//$color_e: #55C3DC;
+//$color_f: #e24b2c;
+
+//$color_a: #73726d;
+//$color_b: #55C3DC;
+//$color_c: white;
+//$color_d: #CE534D;
+//color_e: #e24b2c;
+$color_f: #e7f3ef;
+
+//main background
+//text
+//sub box
+//link new
+//link visited
+//h1
+
+body { background-color: $color_a; color: $color_b;}
+
+.box { background-color: $color_c; margin-top: 8px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px; /* future proofing */
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+//fix for grid 960 padding problem.
+.liner {padding: 10px;}
+
+h1 { margin: 0px; color: $color_f}
+h2 { margin: 0px;}
+
+a {color: $color_d;}
+a:visited {color: $color_e;}
+
+.color_block { width: 200px; }
+
+#a { background-color: $color_a;}
+#b { background-color: $color_b;}
+#c { background-color: $color_c;}
+#d { background-color: $color_d;}
+#e { background-color: $color_e;}
+#f { background-color: $color_f;}
+
+.instagram { margin-left: 25px}
+
+
+
+//COMMON LIBRARY
+
+//to do: make these sass functions... so they can be embedded in other styles.  
+
+.min_height_50 { height:auto !important; height:50px; min-height: 50px;}
+.min_height_100 { height:auto !important; height:100px; min-height: 100px;}
+.min_height_125 { height:auto !important; height:125px; min-height: 125px;}
+.min_height_150 { height:auto !important; height:150px; min-height: 150px;}
+.min_height_200 { height:auto !important; height:200px; min-height: 200px;}
+.min_height_250 { height:auto !important; height:250px; min-height: 250px;}
+.min_height_300 { height:auto !important; height:300px; min-height: 300px;}
+.min_height_350 { height:auto !important; height:350px; min-height: 350px;}
+.min_height_400 { height:auto !important; height:400px; min-height: 400px;}
+.min_height_450 { height:auto !important; height:450px; min-height: 450px;}
+.min_height_500 { height:auto !important; height:500px; min-height: 500px;}
+.min_height_550 { height:auto !important; height:550px; min-height: 550px;}
+.min_height_600 { height:auto !important; height:600px; min-height: 600px;}
+.min_height_650 { height:auto !important; height:650px; min-height: 650px;}
+.min_height_700 { height:auto !important; height:700px; min-height: 700px;}
