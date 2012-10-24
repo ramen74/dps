@@ -33,18 +33,18 @@
 
   </script>
 
-
-
-
 </head>
 <body>
 
 <div id="main_container" class="container_12">
-  <div id="header">
-    <h1>Derek Szydlowski</h1>
-    <h2>シドラウスキ−　デレック</h2>
-	
-  </div>
+    <div class="grid_4" id="header"  onclick="location.href='/main/index';" style="cursor: pointer;">
+    <%=  image_tag "derek.png" %> 
+    </div>
+    <div class="grid_8">
+      <h1>Derek Szydlowski</h1>
+      <h2>シドラウスキ−　デレック</h2> 
+    </div>
+  <!-- </div> -->
 	
   <%= yield %>
 </div>
