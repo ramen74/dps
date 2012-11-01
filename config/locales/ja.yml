@@ -6,9 +6,9 @@ ja:
     en: " 英語"
     ja: " 日本語"
   about_me: 
-    paragraph_1: " 私は東京で住んでいるWebエンジニアかシステムエンジニアです。
-      それは私についてのいくつかの情報を持っており、時々私はいくつかの実験を行うためのウェブサイトです."
-    paragraph_2: "このウェブサイとが早い段階で開発中であることを知ってください。。ゆるしくお願います."
+    paragraph_1:  " 私は東京で在住のWebエンジニアおよびシステムエンジニアです。
+      これは私についての情報をのせたり、時には色々試してみたりするウィブサイトです"
+    paragraph_2: "このサイトはまだ未完成でplaceholderの状態です"
   flash:
     login: "Logged in successfully."
   professional:
@@ -16,10 +16,10 @@ ja:
     resume_subtitle: " 履歴書"
     resume_paragraph: "CV リンク"
     projects_subtitle: "プロジェクト"
-    projects_paragraph: "重要な役割を作成し、維持したり演じてきたプロジェクト"
+    projects_paragraph: "作成／保守、または重要な役割を担っていたプロジェクト"
     projects:
-      ttlc: "Intuit の プロジェクトです"
-      dps: "このウェブサイトです"
+      ttlc: "Intuit での最後のメインプロジェクトです"
+      dps: "このサイトです"
       jdr: "レストランのサイトです"
       cp-nkb: "オートバイの部品メーカーとショップのe-commerceサイトです"
     git_subtitle: "GitHub"
