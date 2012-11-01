@@ -1,0 +1,35 @@
+ja:
+  layout:
+    main_name:　"  シドラウスキー　デレック"
+    alt_name:　"Derek Szydlowski"
+  translation:
+    en: " 英語"
+    ja: " 日本語"
+  about_me: 
+    paragraph_1: " 私は東京で住んでいるWebエンジニアかシステムエンジニアです。
+      それは私についてのいくつかの情報を持っており、時々私はいくつかの実験を行うためのウェブサイトです."
+    paragraph_2: "このウェブサイとが早い段階で開発中であることを知ってください。。ゆるしくお願います."
+  flash:
+    login: "Logged in successfully."
+  professional:
+    title: "キャリア情報"
+    resume_subtitle: " 履歴書"
+    resume_paragraph: "CV リンク"
+    projects_subtitle: "プロジェクト"
+    projects_paragraph: "重要な役割を作成し、維持したり演じてきたプロジェクト"
+    projects:
+      ttlc: "Intuit の プロジェクトです"
+      dps: "このウェブサイトです"
+      jdr: "レストランのサイトです"
+      cp-nkb: "オートバイの部品メーカーとショップのe-commerceサイトです"
+    git_subtitle: "GitHub"
+    git_paragraph: ""
+  colors:
+    title: "カラーパレット"
+    paragraph: "私はこのサイトを設定していながら、ここでは、カラーパレットの"
+  contact:
+    title: "お問い合わせ"
+    email: "dszydlowski@me.com"
+    phone_number: ""      
+    address: "日本東京都江東区"
+    

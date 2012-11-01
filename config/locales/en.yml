@@ -1,5 +1,31 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  hello: "Hello world"
+  layout:
+    main_name: "Derek Szydlowski"
+    alt_name: "シドラウスキー　デレック"
+  translation:
+    en: "English"
+    ja: "Japanese"
+  about_me:
+    paragraph_1: "I am a developer and system engineer who is currently trying to make a life in Tokyo, Japan. This is my web site. It has some info about me, and from time to time will be a place for me to do some experiments..."
+    paragraph_2: "If you've arrived at this page.. it is extremely early in it's development. As a matter of fact is just really a place holder at this point..."
+  professional:
+    title: "Professional Information"
+    resume_subtitle: "Resume"
+    resume_paragraph: "Link to my LinkedIn Resume"
+    projects_subtitle: "Projects"
+    projects_paragraph: "Projects I have created and maintain or played critical roles on"
+    projects:
+      ttlc: 'My last main project at Intuit' 
+      dps: 'This site'
+      jdr: 'A basic mash up type site for a "pop-up" restaurant.'
+      cp-nkb: 'Ecommerce site for a motorcycle parts and shop. All content is updatable dynamically by the client.' 
+    git_subtitle: "Git Examples"
+    git_paragraph: "Some examples of code I have in Git. Please know most of my career work is ubfortunetly not publically viewable"
+  colors:
+    title: "Colors"
+    paragraph: "While I'm setting up this site here's the color palette"
+  contact:
+    title: "Contact"
+    phone_number: "Phone Number"      
+    address: "Koto-ku, Tokyo Japan"
+    email: "dszydlowski@me.com"  

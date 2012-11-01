@@ -1,19 +1,22 @@
-<h2>Professional Information</h2>
-<h3>Resume</h3>
-<p> Link to my resume on Linkedin.</p> 
-<%= link_to "Resume", "http://www.linkedin.com/profile/view?id=103024036" %>
-<h3>Projects</h3>
-<p>Here's some projects I have played critical roles on or actively create and maintain</p>
-My last main project at Intuit: </br>
+<h2><%= t "professional.title"%></h2>
+
+<h3><%= t "professional.resume_subtitle" %></h3>
+<p> <%= t "professional.resume_paragraph" %></p> 
+<%= link_to t("professional.resume_subtitle"), "http://www.linkedin.com/profile/view?id=103024036" %>
+
+<h3><%= t "professional.projects_subtitle"%></h3>
+<p><%= t "professional.projects_paragraph"%></p>
+<p><%= t 'professional.projects.ttlc' %></p>
 <%= link_to "TurboTax Live Community", "http://ttlc.intuit.com"%></br>
-This Site<br/>
+<p><%= t 'professional.projects.dps' %></p>
 <%= link_to "dszydlowski", "http://dszydlowski.com" %></br>
-A site I did for a new "pop-up" restaurant: <br/>
+<p><%= t 'professional.projects.jdr' %></p>
 <%= link_to "JD's Revenge", "http://jdrevenge.com" %></br>
-Two Rails sites I did from scratch for a motorcycle parts and service company: <br/>
+<p><%= t 'professional.projects.cp-nkb' %></p>
 <%= link_to "CyclePirates", "http://cyclepirates.com" %></br>
 <%= link_to "NKB Motorcycles", "http://nkbmotorcycles.com"%></br>
-<h3>Git</h3>
-<p> Some really basic coding examples, including the code to this site. </p>
+
+<h3><%= t "professional.git_subtitle"%></h3>
+<p> <%= t "professional.git_paragraph"%></p>
 <%= link_to "GitHub", "https://github.com/ramen74/dps" %>
 
