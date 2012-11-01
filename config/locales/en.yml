@@ -20,7 +20,7 @@ en:
       jdr: 'A basic mash up type site for a "pop-up" restaurant.'
       cp-nkb: 'Ecommerce site for a motorcycle parts and shop. All content is updatable dynamically by the client.' 
     git_subtitle: "Git Examples"
-    git_paragraph: "Some examples of code I have in Git. Please know most of my career work is ubfortunetly not publically viewable"
+    git_paragraph: "Some really basic examples of code I have in Git."
   colors:
     title: "Colors"
     paragraph: "While I'm setting up this site here's the color palette"
