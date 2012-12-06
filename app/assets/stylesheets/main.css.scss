@@ -4,47 +4,21 @@
 
 //color pallette 
 
-//$color_a: #7FBAFC;
-//$color_b: #FEE789;
-//$color_c: #C8A94C;
-//$color_d: #55262C;
-//$color_e: #362430;
+//sepia
+$color_a: #DFCAB3;
+$color_b: #863D03;
+$color_c: #DFCAB3;
+$color_d: #31230c;
+$color_e: #31230c;
+$color_f: #501700;
+
 
 //cool blue
-$color_a: #091D42;
-$color_b: #396A92;
-$color_c: #9AB4CB;
-$color_d: #ECEDF2;
-$color_e: #FDFDFD;
+//$color_b: #396A92;
+//$color_c: #091D42;
+//$color_d: #ECEDF2;
+//$color_e: #FDFDFD;
 
-//$color_b: #DED4B9;
-//$color_a: #929487;
-//$color_c: #CE534D;
-//$color_e: #f4f5ed;
-//$color_d: #89cede;
-
-
-//$color_a: #DED4B9;
-//$color_b: #46433a;
-//$color_c: white;
-//$color_d: #CE534D;
-//$color_e: #CE534D;
-//$color_f: #64B6B1;
-
-
-//$color_a: #73726d;
-//$color_b: #e7f3ef;
-//$color_c: white;
-//$color_d: #CE534D;
-//$color_e: #55C3DC;
-//$color_f: #e24b2c;
-
-//$color_a: #73726d;
-//$color_b: #55C3DC;
-//$color_c: white;
-//$color_d: #CE534D;
-//color_e: #e24b2c;
-$color_f: #e7f3ef;
 
 //main background
 //text
@@ -53,7 +27,24 @@ $color_f: #e7f3ef;
 //link visited
 //h1
 
-body { background-color: $color_a; color: $color_b;}
+body { background-color: $color_a; color: $color_b;
+  font: 12px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.us {
+   background-color: yellow;
+   height: 80px;
+   width: 50px;
+   border: none;
+   background: url('/assets/stylesheets/old_uspng'); height: 80px; background-repeat: no-repeat; margin: 0 auto;
+   }
+
+
+#jp {
+
+}
 
 .box { background-color: $color_c; margin-top: 8px;
 -moz-border-radius: 10px;
@@ -66,7 +57,7 @@ border-radius: 10px; /* future proofing */
 .liner {padding: 10px;}
 
 h1 { margin: 0px; color: $color_f}
-h2 { margin: 0px;}
+h2 { margin: 0px; color: $color_f}
 
 a {color: $color_d;}
 a:visited {color: $color_e;}

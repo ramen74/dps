@@ -38,14 +38,18 @@
 
 <div id="main_container" class="container_12">
     <div class="grid_4" id="header"  onclick="location.href='/main/index';" style="cursor: pointer;">
-    <%=  image_tag "derek.png" %> 
+    <%=  image_tag "derek_face_rnd_sep.png" %> 
     </div>
     <div class="grid_8">
-      <h1><%= t('layout.main_name') %></h1>
+	
+	
+	
+	  <%=  image_tag "derek_szydlowski_sepia.png" %> 
       <h2><%= t('layout.alt_name') %></h2> 
       <ul class="nav pull-right">
-        <li class="en_locale"><%= link_to t('translation.en'), :locale => :en %></li>
-        <li class="ja_locale"><%= link_to t('translation.ja'), :locale => :ja %></li>
+        <%#= link_to  "us", {:locale => :en},{ :class => 'us'} %>
+        <%= link_to image_tag("old_us.png", :border=>0), :locale => :us %>
+        <%= link_to image_tag("old_jpn.png", :border=>0), :locale => :ja %>
       </ul>
     </div>
   <!-- </div> -->
