@@ -42,7 +42,7 @@ background: url('noise.png');
 
 .lang_select { margin: center;}
 
-.box { background-color: $color_c; margin-top: 8px;
+.box { background-color: $color_c; background: url('noise.png'); margin-top: 8px;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px; /* future proofing */
@@ -52,10 +52,10 @@ border-radius: 10px; /* future proofing */
 //fix for grid 960 padding problem.
 .liner {padding: 10px;}
 
-h1 { margin: 0px; color: $color_f}
-h2 { margin: 0px; color: $color_f}
+h1 { margin: 0px; color: $color_f;}
+h2 { margin: 0px; color: $color_f;}
 
-h2:before { height: 80px; padding-right: 20px; content: ''; background: url('left_floral.png'); background-repeat: no-repeat; 
+h2:before { height: 80px; padding-left: 20px; content: ''; background: url('left_floral.png'); background-repeat: no-repeat; 
   z-index: -1;}
 h2:after { height: 80px; padding-left: 20px;   content: ''; background: url('right_floral.png'); background-repeat: no-repeat}
 
