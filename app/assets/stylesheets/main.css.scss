@@ -31,12 +31,13 @@ body { background-color: $color_a; color: $color_b;
   font: 12px "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
     letter-spacing: 1px;
     text-align: center;
+background: url('noise.png');
 }
 
 .us_link { background: url('old_us.png'); height: 40px; width: 60px; background-repeat: no-repeat; margin: 0 auto; display: block; float: right;}
 .us_link:hover { background: url('old_us_hvr.png')} 
 
-.jp_link { background: url('old_jpn.png'); height: 40px; width: 60px; background-repeat: no-repeat; margin: 0 auto; display: block; float:right; } 
+.jp_link { background: url('old_jpn.png'); height: 40px; width: 60px; background-repeat: no-repeat; margin: 0 auto; display: block; float:right;  } 
 .jp_link:hover { background: url('old_jpn_hvr.png')}
 
 .lang_select { margin: center;}
@@ -53,6 +54,11 @@ border-radius: 10px; /* future proofing */
 
 h1 { margin: 0px; color: $color_f}
 h2 { margin: 0px; color: $color_f}
+
+h2:before { height: 80px; padding-right: 20px; content: ''; background: url('left_floral.png'); background-repeat: no-repeat; 
+  z-index: -1;}
+h2:after { height: 80px; padding-left: 20px;   content: ''; background: url('right_floral.png'); background-repeat: no-repeat}
+
 
 a {color: $color_d;}
 a:visited {color: $color_e;}
