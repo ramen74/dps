@@ -33,18 +33,13 @@ body { background-color: $color_a; color: $color_b;
     text-align: center;
 }
 
-.us {
-   background-color: yellow;
-   height: 80px;
-   width: 50px;
-   border: none;
-   background: url('/assets/stylesheets/old_uspng'); height: 80px; background-repeat: no-repeat; margin: 0 auto;
-   }
+.us_link { background: url('old_us.png'); height: 40px; width: 60px; background-repeat: no-repeat; margin: 0 auto; display: block; float: right;}
+.us_link:hover { background: url('old_us_hvr.png')} 
 
+.jp_link { background: url('old_jpn.png'); height: 40px; width: 60px; background-repeat: no-repeat; margin: 0 auto; display: block; float:right; } 
+.jp_link:hover { background: url('old_jpn_hvr.png')}
 
-#jp {
-
-}
+.lang_select { margin: center;}
 
 .box { background-color: $color_c; margin-top: 8px;
 -moz-border-radius: 10px;
